@@ -17,7 +17,7 @@ def getGitRef() {
 }
 
 version = "${semver}+${getGitRef()}"
-group = 'li.cil.sedna'
+group = 'me.ajh123.sedna_improved'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 

@@ -1,4 +1,4 @@
-package li.cil.sedna.buildroot;
+package me.ajh123.sedna_improved.buildroot;
 
 import java.io.InputStream;
 
