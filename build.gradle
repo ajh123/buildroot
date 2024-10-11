@@ -58,7 +58,7 @@ task generateLegalInfo(type: Exec) {
 
 task copyBuildrootImages(type: Copy) {
     from compileBuildroot.outputs.files
-    into "src/main/resources/generated/"
+    into "src/main/resources/generated/sedna_improved"
 }
 
 task copyBuildrootLicenses(type: Copy) {
